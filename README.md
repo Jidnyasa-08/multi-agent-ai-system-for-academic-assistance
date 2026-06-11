@@ -1,2 +1,2 @@
 # multi-agent-ai-system-for-academic-assistance
-A Multi-Agent AI System for Academic Assistance and Learning Support.
+Multi-Agent AI System for Academic Assistance designed to provide learning support,intelligent educationl guidance and academic resource recommendations.
