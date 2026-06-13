@@ -1,5 +1,7 @@
 # multi-agent-ai-system-for-academic-assistance
-Project Team Members:
+
+##Project Team Members:
+
 1.Jidnyasa Sanjay Thakare
 2.Shruti Dinesh Yadav
 3.Anshika Bhat
@@ -10,4 +12,7 @@ Project Team Members:
 8.Arya
 9.Neha vishe
 10.Tanisha Shejwal
-Project Description-Multi-Agent AI System for Academic Assistance designed to provide learning support,intelligent educationl guidance and academic resource recommendations.
+
+##Project Description
+
+Multi-Agent AI System for Academic Assistance designed to provide learning support,intelligent educationl guidance and academic resource recommendations.
