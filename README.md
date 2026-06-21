@@ -16,3 +16,17 @@
 ##Project Description:
 
 Multi-Agent AI System for Academic Assistance designed to provide learning support,intelligent educationl guidance and academic resource recommendations.
+## Internship Work Summary
+
+Week 1:
+- Repository setup and project structure created
+- Initial data collection and dataset organization
+- Basic reporting folder structure created
+
+Week 2:
+- Data cleaning and preprocessing completed
+- Dataset files (CSV/JSON/XLSX/PDF) added and organized
+- Documentation updated
+- Final data storage and GitHub push completed
+
+All changes have been successfully committed and pushed to GitHub repository.
