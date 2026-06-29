@@ -29,4 +29,18 @@ Week 2:
 - Documentation updated
 - Final data storage and GitHub push completed
 
+  Week 3:
+
+- AI Client-Server Architecture designed
+
+- Architecture diagram created and documented
+
+- Client Layer, Server Layer, AI Agent Layer, and Database Layer defined
+
+- API documentation prepared for system communication
+
+- Backend structure and frontend wireframe documented
+
+- Technical report and component explanation completed
+
 All changes have been successfully committed and pushed to GitHub repository.
