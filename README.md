@@ -29,7 +29,7 @@ Week 2:
 - Documentation updated
 - Final data storage and GitHub push completed
 
-  Week 3:
+Week 3:
 
 - AI Client-Server Architecture designed
 
