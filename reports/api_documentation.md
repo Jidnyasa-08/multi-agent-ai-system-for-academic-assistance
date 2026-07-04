@@ -2,7 +2,7 @@ API Documentation
 
 Project
 
-Multi-Agent AI System for Academic Assistant Application
+Multi-Agent AI System for Academic Assistant.   
 
 API Endpoints
 
