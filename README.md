@@ -56,4 +56,63 @@ Multi-Agent AI System for Academic Assistance designed to provide learning suppo
 - Data cleaning and preprocessing
 - CSV, JSON, XLSX, and PDF datasets organized
 - Documentation updates
-- GitHub repository maintenance.
+- GitHub repository maintenance
+
+### Week 3
+- System architecture design
+- API documentation preparation
+- Backend planning
+- Frontend wireframe design
+- Multi-agent workflow design
+
+### Week 4
+- Flask backend implementation
+- FAQ Agent implementation
+- Course Agent implementation
+- Student Agent implementation
+- Syllabus Agent implementation
+- API endpoint development
+- Frontend development
+- Backend and dataset integration
+
+## Project Structure
+
+data/
+├── cleaned/
+│ ├── faq_cleaned.json
+│ ├── students_cleaned.csv
+│ ├── courses_cleaned.xlsx
+│ └── syllabus_cleaned.pdf
+
+src/
+├── app.py
+└── agents/
+├── faq_agent.py
+├── course_agent.py
+├── student_agent.py
+└── syllabus_agent.py
+
+frontend/
+└── index.html
+
+reports/
+├── Technical_Report.pdf
+├── API_Documentation.pdf
+├── Backend_Overview.pdf
+└── Frontend_Wireframe.pdf
+
+## Current Status
+
+Backend Completed
+Frontend Implemented
+Multi-Agent System Implemented
+Documentation Completed
+Repository Updated
+
+## Future Scope
+
+- Quiz Generation
+- Topic Summarization
+- Conversation History
+- User Feedback System
+- Database Integration
