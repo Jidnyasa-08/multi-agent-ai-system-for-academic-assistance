@@ -1,38 +1,48 @@
-API Documentation
+# API Documentation
 
-Project
+## Project
+**Multi-Agent AI System for Academic Assistant**
 
-Multi-Agent AI System for Academic Assistant.   
+---
 
-API Endpoints
+## API Endpoints
 
-Endpoint| Method| Purpose
-/api/chat| POST| Send academic questions to the AI system
-/api/quiz| POST| Generate quiz questions
-/api/summary| POST| Generate topic summaries
-/api/history| GET| Retrieve previous interactions
-/api/feedback| POST| Submit user feedback
-/api/health| GET| Check server status
+| Endpoint | Method | Purpose |
+|----------|--------|---------|
+| / | GET | Check backend server status |
+| /api/chat | POST | Send academic questions to the AI system |
 
-Example Request
+---
 
-POST /api/chat
+## Example Request
+
+**POST /api/chat**
 
 Request:
+
+```json
 {
-"question": "What is Artificial Intelligence?"
+  "question": "What is the minimum attendance required?"
 }
+```
 
 Response:
+
+```json
 {
-"answer": "Artificial Intelligence is the simulation of human intelligence by machines."
+  "agent": "FAQ Agent",
+  "answer": "Students must maintain at least 75% attendance."
 }
+```
 
-Example Health Check
+---
 
-GET /api/health
+## Example Health Check
+
+**GET /**
 
 Response:
-{
-"status": "Server Running"
-}
+
+```text
+Academic Assistant Multi-Agent Backend Running
+```
