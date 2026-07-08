@@ -2,113 +2,180 @@ TECHNICAL REPORT
 
 Project Title
 
-Multi-Agent AI System for Academic Assistance.
+Multi-Agent AI System for Academic Assistance
 
-Objective
+---
 
-The objective of this project is to develop an AI-powered Academic Assistant Application that assists students with academic information and resources. The system is designed to answer frequently asked questions, provide course-related details, retrieve student information, and support academic learning through an intelligent assistant.
+1. Objective
 
-Project Overview
+The objective of this project is to develop an AI-powered Academic Assistant Application that helps students access academic information and resources efficiently. The system is designed to answer frequently asked questions, provide course-related details, retrieve student information, and support academic learning through an intelligent assistant.
 
-The Academic Assistant Application is a multi-agent AI-based system designed to provide quick and efficient access to academic information. The system utilizes structured datasets and a backend server to process user queries and deliver relevant responses. The application aims to simplify access to academic resources and improve the overall learning experience for students.
+---
 
-System Components
+2. Project Overview
 
-1. Frontend Interface
-Provides a user-friendly interface where users can submit academic queries and receive responses.
+The Multi-Agent AI System for Academic Assistance is an AI-based application designed to provide quick and efficient access to academic resources. The system uses structured datasets and a backend server to process user queries and generate relevant responses.
 
-2. Backend Server
-Processes user requests, manages data access, and generates appropriate responses.
+The main goal of this project is to simplify academic information retrieval and improve the learning experience by providing students with an intelligent platform for academic assistance.
 
-3. Multi-Agent AI System
-Analyzes user queries and retrieves relevant information from available datasets.
+---
 
-4. Data Sources
-Stores academic information in multiple formats for efficient retrieval and management.
+3. System Components
 
-Datasets Used
+3.1 Frontend Interface
 
-1. FAQ Dataset (faq.json)
-Contains frequently asked academic questions and their corresponding answers.
+The frontend interface provides a user-friendly platform where students can enter academic queries and receive responses from the system.
 
-2. Student Dataset (students.csv)
-Contains student-related information such as Student ID, Name, Department, Semester, and CGPA.
+3.2 Backend Server
 
-3. Course Dataset (courses.xlsx)
-Contains course information including Course ID, Course Name, Department, Credits, and Faculty details.
+The backend server handles user requests, manages data processing, accesses academic datasets, and generates appropriate responses.
 
-4. Syllabus Dataset (syllabus.pdf)
-Contains course objectives, outcomes, modules, assessment patterns, and reference materials.
+3.3 Multi-Agent AI System
 
-Technologies Used
+The multi-agent AI system analyzes user queries and retrieves relevant information from different academic data sources.
 
-- Python
-- Flask
-- GitHub
-- Visual Studio Code (VS Code)
-- JSON
-- CSV
-- XLSX
+3.4 Data Sources
 
-Project Workflow
+The system stores academic information in multiple structured formats, allowing efficient data retrieval and management.
+
+---
+
+4. Datasets Used
+
+4.1 FAQ Dataset (faq.json)
+
+This dataset contains frequently asked academic questions along with their corresponding answers. It helps the system provide quick responses to common student queries.
+
+4.2 Student Dataset (students.csv)
+
+This dataset contains student-related information such as:
+
+- Student ID
+- Student Name
+- Department
+- Semester
+- CGPA
+
+4.3 Course Dataset (courses.xlsx)
+
+This dataset stores course-related information including:
+
+- Course ID
+- Course Name
+- Department
+- Credits
+- Faculty Details
+
+4.4 Syllabus Dataset (syllabus.pdf)
+
+This dataset contains academic syllabus information including:
+
+- Course Objectives
+- Course Outcomes
+- Modules
+- Assessment Pattern
+- Reference Materials
+
+---
+
+5. Technologies Used
+
+The following technologies and tools were used during the development process:
+
+- Python – Backend programming language
+- Flask – Backend web framework for API development
+- GitHub – Version control and project repository management
+- Visual Studio Code (VS Code) – Development environment
+- JSON – Data storage format for FAQ information
+- CSV – Student dataset management
+- XLSX – Course dataset management
+- PDF – Syllabus document storage
+
+---
+
+6. Project Workflow
 
 The system follows a client-server architecture.
 
 Workflow:
 
 User
-↓
+  ↓
 Frontend Interface
-↓
+  ↓
 Backend Server
-↓
+  ↓
 Academic Data Sources
-↓
+  ↓
 Response Generation
-↓
+  ↓
 User
 
-The backend processes user queries and retrieves relevant information from available datasets before sending the response back to the user.
+The backend processes user queries, retrieves required information from available datasets, and sends the generated response back to the user.
 
-API Design
+---
 
-1. Home Endpoint
+7. API Design
 
-Endpoint: /
+7.1 Home Endpoint
+
+Endpoint: "/"
 Method: GET
-Purpose: Verify that the backend server is running successfully.
 
-2. Chat Endpoint (Planned)
+Purpose:
+Used to verify that the backend server is running successfully.
 
-Endpoint: /api/chat
+---
+
+7.2 Chat Endpoint
+
+Endpoint: "/api/chat"
 Method: POST
-Purpose: Process academic queries and generate responses.
 
-Work Completed During Internship
+Purpose:
+Processes academic queries submitted by users and generates appropriate responses.
+
+---
+
+8. Work Completed During Internship
 
 Week 1 – Project Planning and Data Collection
+
+Activities completed:
 
 - Selected the Academic Assistant project topic.
 - Defined project objectives and requirements.
 - Collected academic datasets.
 - Created FAQ, student, course, and syllabus datasets.
 
+---
+
 Week 2 – Data Preparation and Repository Setup
+
+Activities completed:
 
 - Organized project folder structure.
 - Prepared datasets in JSON, CSV, XLSX, and PDF formats.
-- Initialized GitHub repository.
-- Configured the development environment using Python and Flask.
+- Created and configured GitHub repository.
+- Set up the development environment using Python and Flask.
+
+---
 
 Week 3 – System Design and Documentation
 
+Activities completed:
+
 - Designed the overall system architecture.
-- Created the architecture diagram.
+- Created architecture documentation.
 - Prepared API documentation.
 - Planned backend workflow.
 - Designed frontend wireframe.
 
+---
+
 Week 4 – Project Organization and Final Documentation
+
+Activities completed:
 
 - Organized project files and documentation.
 - Prepared technical reports and supporting documents.
@@ -116,7 +183,11 @@ Week 4 – Project Organization and Final Documentation
 - Verified datasets and project resources.
 - Prepared the project for final submission.
 
-Expected Features
+---
+
+9. Expected Features
+
+The proposed system includes the following features:
 
 - Academic Question Answering
 - FAQ Support
@@ -126,18 +197,24 @@ Expected Features
 - Conversation History Management
 - AI-Based Academic Support
 
-Future Development
+---
 
-The following enhancements are planned for future implementation:
+10. Future Development
 
-- Implemente AI Agents
-- FAQ Agent
-- Student Information Agent
-- Course Information Agent
-- Syllabus Information Agent
-- Flask Backend API
-- Structured Academic Data Processing
+Future improvements planned for the system include:
 
-Conclusion
+- Implementation of AI Agents
+- FAQ Agent Development
+- Student Information Agent Development
+- Course Information Agent Development
+- Syllabus Information Agent Development
+- Flask Backend API Enhancement
+- Advanced Academic Data Processing
 
-The project successfully completed the planning, dataset preparation, repository organization, system design, and documentation phases during the internship period. The developed architecture, datasets, API design, and project structure provide a strong foundation for implementing a complete AI-powered Academic Assistant Application in future development stages.
+---
+
+11. Conclusion
+
+The project successfully completed the planning, dataset preparation, repository organization, system design, and documentation phases during the internship period.
+
+The developed architecture, datasets, API design, and project structure provide a strong foundation for implementing a complete AI-powered Academic Assistant Application in future development stages.
