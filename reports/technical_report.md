@@ -1,49 +1,143 @@
-# Technical Report
+TECHNICAL REPORT
 
-## Project
+Project Title
 
-**Multi-Agent AI System for Academic Assistance**
+Multi-Agent AI System for Academic Assistance.
 
----
+Objective
 
-## Objective
+The objective of this project is to develop an AI-powered Academic Assistant Application that assists students with academic information and resources. The system is designed to answer frequently asked questions, provide course-related details, retrieve student information, and support academic learning through an intelligent assistant.
 
-The objective of this project is to develop an AI-powered Academic Assistant Application that helps students access academic information and resources efficiently. The system is designed to answer frequently asked questions, provide course-related details, retrieve student information, and support academic learning through an intelligent assistant.
+Project Overview
 
----
+The Academic Assistant Application is a multi-agent AI-based system designed to provide quick and efficient access to academic information. The system utilizes structured datasets and a backend server to process user queries and deliver relevant responses. The application aims to simplify access to academic resources and improve the overall learning experience for students.
 
-## Project Overview
+System Components
 
-The Multi-Agent AI System for Academic Assistance is an AI-based application designed to provide quick and efficient access to academic resources. The system uses structured datasets and a backend server to process user queries and generate relevant responses.
+1. Frontend Interface
+Provides a user-friendly interface where users can submit academic queries and receive responses.
 
-The main goal of this project is to simplify academic information retrieval and improve the learning experience by providing students with an intelligent platform for academic assistance.
+2. Backend Server
+Processes user requests, manages data access, and generates appropriate responses.
 
----
+3. Multi-Agent AI System
+Analyzes user queries and retrieves relevant information from available datasets.
 
-## System Components
+4. Data Sources
+Stores academic information in multiple formats for efficient retrieval and management.
 
-### Frontend Interface
+Datasets Used
 
-The frontend interface provides a user-friendly platform where students can enter academic queries and receive responses from the system.
+1. FAQ Dataset (faq.json)
+Contains frequently asked academic questions and their corresponding answers.
 
-### Backend Server
+2. Student Dataset (students.csv)
+Contains student-related information such as Student ID, Name, Department, Semester, and CGPA.
 
-The backend server handles user requests, manages data processing, accesses academic datasets, and generates appropriate responses.
+3. Course Dataset (courses.xlsx)
+Contains course information including Course ID, Course Name, Department, Credits, and Faculty details.
 
-### Multi-Agent AI System
+4. Syllabus Dataset (syllabus.pdf)
+Contains course objectives, outcomes, modules, assessment patterns, and reference materials.
 
-The multi-agent AI system analyzes user queries and retrieves relevant information from different academic data sources.
+Technologies Used
 
-### Data Sources
+- Python
+- Flask
+- GitHub
+- Visual Studio Code (VS Code)
+- JSON
+- CSV
+- XLSX
 
-The system stores academic information in multiple structured formats, allowing efficient data retrieval and management.
+Project Workflow
 
----
+The system follows a client-server architecture.
 
-## Datasets Used
+Workflow:
 
-### FAQ Dataset (`faq.json`)
+User
+↓
+Frontend Interface
+↓
+Backend Server
+↓
+Academic Data Sources
+↓
+Response Generation
+↓
+User
 
-This dataset contains frequently asked academic questions along with their corresponding answers.
+The backend processes user queries and retrieves relevant information from available datasets before sending the response back to the user.
 
-### Student Dataset (`students.csv`)
+API Design
+
+1. Home Endpoint
+
+Endpoint: /
+Method: GET
+Purpose: Verify that the backend server is running successfully.
+
+2. Chat Endpoint (Planned)
+
+Endpoint: /api/chat
+Method: POST
+Purpose: Process academic queries and generate responses.
+
+Work Completed During Internship
+
+Week 1 – Project Planning and Data Collection
+
+- Selected the Academic Assistant project topic.
+- Defined project objectives and requirements.
+- Collected academic datasets.
+- Created FAQ, student, course, and syllabus datasets.
+
+Week 2 – Data Preparation and Repository Setup
+
+- Organized project folder structure.
+- Prepared datasets in JSON, CSV, XLSX, and PDF formats.
+- Initialized GitHub repository.
+- Configured the development environment using Python and Flask.
+
+Week 3 – System Design and Documentation
+
+- Designed the overall system architecture.
+- Created the architecture diagram.
+- Prepared API documentation.
+- Planned backend workflow.
+- Designed frontend wireframe.
+
+Week 4 – Project Organization and Final Documentation
+
+- Organized project files and documentation.
+- Prepared technical reports and supporting documents.
+- Reviewed repository structure.
+- Verified datasets and project resources.
+- Prepared the project for final submission.
+
+Expected Features
+
+- Academic Question Answering
+- FAQ Support
+- Course Information Retrieval
+- Student Information Lookup
+- Syllabus Assistance
+- Conversation History Management
+- AI-Based Academic Support
+
+Future Development
+
+The following enhancements are planned for future implementation:
+
+- Implemente AI Agents
+- FAQ Agent
+- Student Information Agent
+- Course Information Agent
+- Syllabus Information Agent
+- Flask Backend API
+- Structured Academic Data Processing
+
+Conclusion
+
+The project successfully completed the planning, dataset preparation, repository organization, system design, and documentation phases during the internship period. The developed architecture, datasets, API design, and project structure provide a strong foundation for implementing a complete AI-powered Academic Assistant Application in future development stages.
