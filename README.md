@@ -116,3 +116,16 @@ Repository Updated
 - Conversation History
 - User Feedback System
 - Database Integration
+
+## 🎥 Project Demonstration
+
+A complete demonstration of my internship project is available on YouTube.
+
+**Project Title:** Multi-Agent AI System for Academic Assistance
+
+**Developed By:** Jidnyasa Sanjay Thakare
+
+**Demo Video:**  
+https://youtu.be/s6bdSKOnv7o
+
+Thank you for visiting my project repository.
